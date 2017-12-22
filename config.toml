@@ -1,4 +1,4 @@
-baseURL = "https://github.com/LouisTan/security_hacks.git"
+baseURL = "https://security-hacks.herokuapp.com/"
 languageCode = "en-us"
 title = "Security Hacks"
 theme = "startbootstrap-clean-blog"
