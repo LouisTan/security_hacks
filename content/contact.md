@@ -1,6 +1,10 @@
----
-title: "Contact"
-date: 2017-12-23T23:45:05-05:00
----
++++ 
+title = "Contact"
+date = "2015-05-24T18:52:04+02:00" 
+menu = "main"  
+type = "contact" 
+weight = -170
+
++++
 
 Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!

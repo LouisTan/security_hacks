@@ -18,14 +18,11 @@ copyright = "Code released under the Apache 2.0 license."
   showReadTime = false #set to false to exclude read time from header of post
 
 [[params.social]]
-  title = "twitter"
-  url = "https://twitter.com/humboldtux"
-[[params.social]]
   title = "github"
-  url = "https://github.com/humboldtux"
+  url = "https://github.com/"
 [[params.social]]
-  title = "facebook"
-  url = "https://www.facebook.com/FACEBOOKHANDLE"
+  title = "linkedin"
+  url = "https://www.linkedin.com/"
 
 [[menu.main]]
   name = "Home"

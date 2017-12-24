@@ -1,7 +1,11 @@
----
-date: "2015-05-24T18:51:50+02:00"
-title: "About"
----
++++ 
+title = "About"
+date = "2015-05-24T18:51:50+02:00"
+menu = "main"
+type = "about"
+weight = -190
+
++++
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?
 
