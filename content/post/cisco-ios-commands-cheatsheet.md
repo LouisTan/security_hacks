@@ -4,7 +4,6 @@ date = "2015-06-25T22:42:57+02:00"
 description = "Various Cisco IOS Commands"
 tags = ["cisco", "ios", "network", "cheatsheet"]
 title = "Cisco IOS commands cheatsheet"
-
 +++
 
 ## Escape sequence

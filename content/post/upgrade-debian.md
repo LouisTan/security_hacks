@@ -1,10 +1,9 @@
-+++
-categories = ["Devops"]
-date = "2015-07-05T14:08:41+02:00"
-tags = ["debian", "jessie", "wheezy", "update", "upgrade", "apt", "dpkg"]
-title = "How to upgrade from Debian 7 Wheezy to Debian 8 Jessie"
-
-+++
+---
+categories: ["Devops"]
+date: "2015-07-05T14:08:41+02:00"
+tags: ["debian", "jessie", "wheezy", "update", "upgrade", "apt", "dpkg"]
+title: "How to upgrade from Debian 7 Wheezy to Debian 8 Jessie"
+---
 
 ## Some notes about upgrading from Debian 7 Wheezy to Debian 8 Jessie.
 
