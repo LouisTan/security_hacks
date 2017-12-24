@@ -18,6 +18,9 @@ copyright = "Code released under the Apache 2.0 license."
   showReadTime = false #set to false to exclude read time from header of post
 
 [[params.social]]
+  title = "rss"
+  url = "https://feedly.com/"
+[[params.social]]
   title = "github"
   url = "https://github.com/"
 [[params.social]]
