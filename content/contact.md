@@ -1,9 +1,0 @@
-+++ 
-title = "Contact"
-date = "2015-05-24T18:52:04+02:00" 
-type = "about"
-weight = -110
-
-+++
-
-Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!
