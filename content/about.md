@@ -1,10 +1,6 @@
 +++ 
 title = "About"
 date = "2015-05-24T18:51:50+02:00"
-menu = "main"
-type = "about"
-weight = -190
-image = "/home/lester-portable/Dev/Hugo/security_hacks/themes/startbootstrap-clean-blog/static/img/home-bg.jpg"
 
 +++
 
