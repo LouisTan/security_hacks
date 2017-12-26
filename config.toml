@@ -1,4 +1,4 @@
-baseURL = "https://security-hacks.herokuapp.com"
+baseURL = "https://security-hacks.herokuapp.com/"
 title = "Security Hacks"
 canonifyurls = true
 paginate = 10
