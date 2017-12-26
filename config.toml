@@ -14,19 +14,16 @@ copyright = "Code released under the Apache 2.0 license."
   DateForm = "Mon, Jan 2, 2006"
   Description = "A blog on information security"
   Author = "Lotana"
-  #email = "benoit.benedetti@gmail.com"
+  email = "5ecur1ty.hack5.adm1n@gmail.com"
   postSummariesFrontPage = 3 #Default == 4
   showReadTime = false #set to false to exclude read time from header of post
 
 [[params.social]]
-  title = "rss"
-  url = "https://feedly.com/"
-[[params.social]]
   title = "github"
   url = "https://github.com/"
 [[params.social]]
-  title = "linkedin"
-  url = "https://www.linkedin.com/"
+  title = "rss"
+  url = "https://feedly.com/"
 
 [[menu.main]]
   name = "Home"
