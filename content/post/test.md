@@ -1,6 +1,8 @@
 +++
 title = "Test"
 date = 2017-12-26T14:16:55-05:00
+comments = true
+
 +++
 
 ---
