@@ -13,13 +13,17 @@ copyright = "Code released under the Apache 2.0 license."
   DateForm = "Mon, Jan 2, 2006"
   Description = "A blog on information security"
   Author = "Lotana"
-  email = "5ecur1ty.hack5.adm1n@gmail.com"
+  #email = "5ecur1ty.hack5.adm1n@gmail.com"
+  Ganalytics = "UA-111610174-1"
   postSummariesFrontPage = 3 #Default == 4
   showReadTime = false #set to false to exclude read time from header of post
 
 [[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/security_hacks"
+[[params.social]]
   title = "github"
-  url = "https://github.com/"
+  url = "https://github.com/security-hacks"
 [[params.social]]
   title = "rss"
   url = "https://feedly.com/"
