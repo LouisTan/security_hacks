@@ -4,8 +4,10 @@ date = 2017-12-24T01:32:22-05:00
 categories = ["Blog", "HowTo"] 
 description = "" 
 tags = ["hello", "world", "programming"]
+comments = true
 
 +++
+
 The blog implementation
 
 Since to hold something as simple as a blog does not require any heavy artillery, using Django or Ruby would have been overkilling it. I am by no means a front end artist and I have a lot to learn about it. Lets just say it is not my hobby horse. I am by no means a front end artist and I have a lot to learn about it. Lets just say it is not my hobby horse. I needed a templating system. Wordpress would have been a good option but then I stumbled upson that article. I made me want to implement a static website to keep my articles on the client-side. No database, no worries! 
