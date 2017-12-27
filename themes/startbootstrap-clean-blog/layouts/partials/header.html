@@ -9,7 +9,8 @@
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ end }}">
     <meta name="author" content="{{ if .Params.authors }}{{ .Params.authors }}{{ else if .Site.Params.Author }}{{.Site.Params.Author}}{{ end }}">
     <meta name="keywords" content="{{ if .Keywords }}{{ delimit .Keywords ", " }}{{ end }}">
-
+    <!--For RSS Feed-->
+    <meta name="specificfeeds-verification-code" content="Z73BwrezlSQxdSG2v8HY"/>
 
     <title>{{ .Title }} -- {{ .Site.Title }}</title>
 
