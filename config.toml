@@ -15,6 +15,7 @@ copyright = "Code released under the Apache 2.0 license."
   Author = "Lotana"
   #email = "5ecur1ty.hack5.adm1n@gmail.com"
   Ganalytics = "UA-111610174-1"
+  disqusShortname = "security-hacks"
   postSummariesFrontPage = 3 #Default == 4
   showReadTime = false #set to false to exclude read time from header of post
 
