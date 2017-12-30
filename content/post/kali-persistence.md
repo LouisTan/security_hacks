@@ -6,6 +6,7 @@ comments = true
 categories = ["Security OS", "Tools"] 
 description = "" 
 tags = ["clonezilla", "encryption", "kali", "persistence"]
+image = "{{ .Site.BaseURL }}/img/about-bg.jpg"
 
 +++
 
