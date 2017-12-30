@@ -31,11 +31,9 @@ There is a bunch of static websites generators out there. My attention got caugh
 
 2.	Create a new site with a template:
 
-	- Create the website: `hugo new site my-blog`
+	- Create the website `hugo new site my-blog`
 	- Browse the official [Hugo default themes](https://github.com/gohugoio/hugoThemes) and select your favorite layout.
 	- Add the template files and initialize a github repository. Let's say you choose the startbootstrap-clean-blog theme, then you would type this:  
-</br>
-
 	`cd my-blog && git init && git submodule add https://github.com/humboldtux/startbootstrap-clean-blog.git themes/startbootstrap-clean-blog`
 
 3.	Configure your website using something like `nano config.toml`.
@@ -91,15 +89,15 @@ There is a bunch of static websites generators out there. My attention got caugh
 
 4.	Include some pages and post an article
 
-	- Add pages pages: `hugo new about.md && hugo new archive.md && hugo new contact.md` 
+	- Add pages pages `hugo new about.md && hugo new archive.md && hugo new contact.md` 
 	- Add you first blog post `hugo new post/hello.md`. Use [Markdown](https://markdown-it.github.io/) instead of HTML.  
 </br>
 
 ### Deploy you blog on a live server
 
 1.	Deploy locally
-	- If you used the tarball or apt-get: `hugo server -D`
-	- If you used snap: `snap run hugo server -D`
+	- If you used the tarball or apt-get `hugo server -D`
+	- If you used snap `snap run hugo server -D`
 	- Your site should be available locally on *localhost:1313*
 
 2.	Deploy on Heroku
