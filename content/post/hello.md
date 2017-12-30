@@ -1,5 +1,5 @@
 +++
-title = "My First Blog Post"
+title = "Blogging with Hugo"
 date = 2017-12-24T01:32:22-05:00
 draft = false
 comments = true
@@ -102,6 +102,6 @@ There is a bunch of static websites generators out there. My attention got caugh
 
 2.	Deploy on Heroku
 	- Version you work with [Github](https://github.com/humboldtux/humboldtux.github.io-src) on the master branch
-	- Access the *Deploy* tab in your [Heroku](https://www.heroku.com/) dashboard, then in *Manual Deploy* click on *Deploy Branch*.
+	- Access the *Deploy* tab in your [Heroku](https://www.heroku.com/) dashboard and deploy the master branch
 	- Your site should be publicly available on *my-blog.herokuapp.com*  
 </br>
