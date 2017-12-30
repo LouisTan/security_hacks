@@ -11,7 +11,7 @@ tags = ["web", "developpement", "hugo"]
 
 ## The blog
 
-For most of my posts I will assume that you are using a Debian Linux distribution because my experience gravitates around it. I recommand Linux Mint, others will prefer Ubuntu. I don't suggest using Kali Linux as it may not be appropriate for day-to-day use. If you want to get your hands dirty with a specialized OS, use Parrot Security Linux or wait for my post on Kali Linux persistence portable OS.
+For most of my posts I will assume that you are using a Debian Linux distribution because my experience gravitates around it. I recommand Linux Mint, others will prefer Ubuntu. I don't suggest using Kali Linux as it may not be appropriate for day-to-day use. If you want to get your hands dirty with a specialized OS, use Parrot Security Linux or wait for my post on [Kali Linux persistence](https://security-hacks.herokuapp.com/post/kali-persistence/) portable OS.
 
 ---
 

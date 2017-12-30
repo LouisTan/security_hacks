@@ -6,7 +6,7 @@ comments = true
 categories = ["Security OS", "Tools"] 
 description = "" 
 tags = ["clonezilla", "encryption", "kali", "persistence"]
-image = "/img/home-bg.jpg"
+image = "/img/kali-persistence.jpg"
 
 +++
 
