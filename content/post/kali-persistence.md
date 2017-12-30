@@ -6,7 +6,7 @@ comments = true
 categories = ["Security OS", "Tools"] 
 description = "" 
 tags = ["clonezilla", "encryption", "kali", "persistence"]
-image = "https://security-hacks.herokuapp.com/img/home-bg.jpg"
+image = "/img/home-bg.jpg"
 
 +++
 
