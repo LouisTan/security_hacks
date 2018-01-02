@@ -11,10 +11,6 @@ tags = ["web", "developpement", "hugo"]
 
 ## The blog
 
-For most of my posts I will assume that you are using a Debian Linux distribution because my experience gravitates around it. I recommand Linux Mint, others will prefer Ubuntu. I don't suggest using Kali Linux as it may not be appropriate for day-to-day use. If you want to get your hands dirty with a specialized OS, use Parrot Security Linux or wait for my post on [Kali Linux persistence](https://security-hacks.herokuapp.com/post/kali-persistence/) portable OS.
-
----
-
 Holding a blog does not require any heavy artillery in terms of developpement. Since I am by no means a front end artist, I needed a templating system. Wordpress would have been a good option but then I came accross that article. It made me want to implement a static website to keep my articles on the client-side. No database, no worries! 
 
 There is a bunch of static websites generators out there. My attention got caught on a Go based frameword named Hugo. I opted for the *startbootstrap-clean-blog* from Bootstrap themes adapted to Hugo by humboldtux to lay my articles and didn't changed much to it. Using this microframework allow me to use Markdown to write my posts and automate a lot of otherwise tedious tasks.
