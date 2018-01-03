@@ -16,7 +16,7 @@ The name of the indian goddess Kali is particularly well choosen for a pentestin
 
 ---
 
-The Kali live mode is much more powerfull in my opinion with persistence. This allow the user to download programs beforehanda nd easilly bring files and collect data on site. In this article I will show you how to install Kali Linux with persistence and LUKS-encryption. 
+The Kali live mode is much more useful with persistence. It allow the user to download programs beforehand and easilly bring files and collect data on site. In this article I will show you how to install Kali Linux with persistence and LUKS-encryption. 
 </br>
 
 ### Portable Kali Linux with persistence
