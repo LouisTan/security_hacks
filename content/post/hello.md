@@ -9,15 +9,13 @@ tags = ["web", "developpement", "hugo"]
 
 +++
 
-## The blog
+## Blogging with Hugo
 
 Holding a blog does not require any heavy artillery in terms of developpement. Since I am by no means a front end artist, I needed a templating system. Wordpress would have been a good option but then I came accross that article. It made me want to implement a static website to keep my articles on the client-side. No database, no worries! 
 
 There is a bunch of static websites generators out there. My attention got caught on a Go based frameword named Hugo. I opted for the *startbootstrap-clean-blog* from Bootstrap themes adapted to Hugo by humboldtux to lay my articles and didn't changed much to it. Using this microframework allow me to use Markdown to write my posts and automate a lot of otherwise tedious tasks.
 
----
-
-### Build your own blog with [Hugo](https://gohugo.io/)
+### Build your own blog with Hugo
 
 1.	Install Hugo
 
@@ -35,6 +33,7 @@ There is a bunch of static websites generators out there. My attention got caugh
 3.	Configure your website using something like `nano config.toml`.
 
 	```
+	#baseURL = "/" #local
 	baseURL = "https://security-hacks.herokuapp.com"
 	title = "Security Hacks"
 	canonifyurls = true
