@@ -12,9 +12,7 @@ image = "/img/kali-persistence/kali-persistence.jpg"
 
 ## Kali Linux with Persistence
 
-The Kali live mode is much more useful with persistence. It permits you to download programs beforehand, bring files and collect data on site. You will also have access to the forensic mode wich allows you to boot in a computer mode without modifying the hard drive in any way. In this article I will show you how to make a  Kali Linux bootable usb with persistence and LUKS-encryption.
-
-I would suggest you to invest in the latest protocol of usb for this since it is going to make data transfers a lot faster. There are other ways to do this, using gparted by instance. It is more visual and simpler to operate but I wanted to demonstrate a way using only the terminal.
+The Kali live mode is much more useful with persistence. It permits you to download programs beforehand, bring files and collect data on site. You will also have access to the forensic mode wich allows you to boot in a computer mode without modifying the hard drive in any way. In this article I will show you how to make a  Kali Linux bootable usb with persistence and LUKS-encryption. I would suggest you to invest in the latest protocol of usb for this since it is going to make data transfers a lot faster. 
 </br>
 
 ### Kali Linux with persistent storage and LUKS encryption
@@ -23,7 +21,7 @@ I would suggest you to invest in the latest protocol of usb for this since it is
 
 2. Get root with `sudo -i`. Make a bootable usb key of the latest version of Kali Linux. A quick way to achive this `mkfs.vfat -I /dev/sdb && dd if=/home/lotana/Downloads/kali-linux-2017.3-amd64.iso of=/dev/sdb bs=10M`.
 
-3. Let's use parted to resize the primary partition to make space for the persistence storage `end=$(($(blockdev --getsize64 /dev/sdb)/ 1000000)) && start=$(du -bm /home/lotana/Downloads/kali-linux-2017.3-amd64.iso | cut -f1) && parted /dev/sdb mkpart primary $start $end`.
+3. Let's use parted to resize the primary partition to make space for the persistence storage `end=$(($(blockdev --getsize64 /dev/sdb)/ 1000000)) && start=$(du -bm /home/lotana/Downloads/kali-linux-2017.3-amd64.iso | cut -f1) && parted /dev/sdb mkpart primary $start $end`.There are other ways to do this, using gparted by instance. It is more visual and simpler to operate but I wanted use only the terminal for this tutorial.
 
 4. Choose a password for encryption `cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb3 && cryptsetup luksOpen /dev/sdb3 usb`.
 
